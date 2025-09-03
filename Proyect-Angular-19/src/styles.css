@@ -1,30 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
-table,tr,th{
-    font-size: 30px;
+:root {
+  --color-fondo-html: aqua;
+  --color-fondo-body: #5be986;
+
+  --color-h2: #ff4900;
+  --font-size-h2: 2rem;
+
+  --color-p1: #0093FF;
+  --font-size-p1: 1rem; /* 16px */
+
+  --color-p2: #c500ff;
+  --font-size-p2: 12px;
+  --font-family: 'Nerko One', cursive;
+
+  --link-color: #001bff;
+  --link-visited: #4CAF50;
+  --link-hover: #ff6600;
+
+  --color-th-bg: #000000;
+  --color-th-text: #ffffff;
+  --font-size-th: 1.5rem;
+
+  --color-tr-gray: #bec1c3;
+  --color-tr-blue: #045795;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+}
+
+th {
+  background-color: var(--color-th-bg);
+  color: var(--color-th-text);
+  font-size: var(--font-size-th);
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+tr:nth-child(2),
+tr:nth-child(4) {
+  background-color: var(--color-tr-gray);
+  color: #000;
+}
+
+tr:nth-child(3) {
+  background-color: var(--color-tr-blue);
+  color: #fff;
 }
 
 h2{
-    color:#ff4900;
+    color: var(--color-h2);
     font-size: 2rem;
 }
 
 p{
-    font-size: 16px;
-    color:#c500ff;
-    font-family: 'Nerko One';
+    font-size: var(--font-size-p1);
+    color:var(--font-family-p1);
+    font-family: var(--font-family);
 }
 
 html{
-    background-color: aqua;
+    background-color: var(--color-fondo-html);
 }
 
 body{
-    background-color: #1cd153;
+    background-color: var(--color-fondo-body);
 }
 
 a{
-    color: #001bff;
+    color: var(--color-p1);
     font-style: bold;
     text-decoration: none;
 }
