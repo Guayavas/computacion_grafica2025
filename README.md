@@ -1,1 +1,0 @@
-# computacion_grafica2025
