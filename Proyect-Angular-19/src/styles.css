@@ -1,12 +1,37 @@
-:root{
-    --color-primario:#ffff54;
-    --color-fondo:#00193f;
-    --font-zise: 20px
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+table,tr,th{
+    font-size: 30px;
 }
 
-html, body{
-    background-color: var(--color-primario);
-    margin: 0;
-    padding: 0;
-    
+h2{
+    color:#ff4900;
+    font-size: 2rem;
 }
+
+p{
+    font-size: 16px;
+    color:#c500ff;
+    font-family: 'Nerko One';
+}
+
+html{
+    background-color: aqua;
+}
+
+body{
+    background-color: #1cd153;
+}
+
+a{
+    color: #001bff;
+    font-style: bold;
+    text-decoration: none;
+}
+a:visited {
+     color: #4CAF50; 
+}  
+a:hover {  
+color: #ff6600;  
+text-decoration: underline 
+}  
