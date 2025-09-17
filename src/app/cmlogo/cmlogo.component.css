@@ -1,0 +1,18 @@
+div {
+    background-color: var(--color-texto);
+    height: 80px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+
+.logo{
+    height: 80px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: aqua;
+    height: 75%;
+}

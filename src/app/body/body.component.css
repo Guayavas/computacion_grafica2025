@@ -1,0 +1,29 @@
+body{
+    background-color: brown;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sidebar{
+    background-color: gray;
+    height: 80%;
+    width: 20%;
+    margin-left: 10px;
+}
+
+.Content{
+    background-color: aqua;
+    height: 80%;
+    width: 75%;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: burlywood;
+    height: 20vh;
+    width: 100%;
+}
