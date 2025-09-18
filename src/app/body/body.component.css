@@ -1,19 +1,20 @@
-body{
+.body{
     background-color: brown;
-    height: 85vh;
     width: 100%;
-    display: block;
-    align-items: center;
 }
-
-.card{
-    margin-left: 20px;
-    width: 300px;
-    height: 100px;
-}
-
 
 .list{
     width: 200px;
     height: 300px;
+}
+
+.person-card {
+  text-align: center;
+  margin: auto;
+}
+
+.person-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }

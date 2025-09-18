@@ -1,12 +1,24 @@
-<body >
-    <p-card  class="card"  header="Justificacion por que es la mejor pagina">
-        <p>Todo radica en que hice esta pagina, sin la ayuda de chatgpt fin.</p>
+<div class="body">
+    <p-card  class="card"  header="Justificacion por que es la mejor pagina" [style]="{ width: '300px', height: '200px', margin: '20px auto' }">
+        <p>Todo radica en que hice esta pagina, sin la ayuda de chatgpt fin</p>
+        <h5>Bueno solo para errores, pero lo demas si lo hice y se nota</h5>
     </p-card>
-    <p class="list">Selecione la mejor opcion que corresponda
-        <p-listBox  [options]="items" [multiple]="true" [checkbox]="true"></p-listBox>    
-    </p>
-    <P>
-        Introdusca la fecha en que conocio tan hermosa pagina<br>
-        <p-datepicker  />
-    </P>
-</body>
+    <div>
+        <h2>Personas que recomiendan esta pagina</h2>
+        <p-carousel [value]="people" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="5000">
+            <ng-template pTemplate="item" let-person>
+                <div class="person-card">
+                <img [src]="person.image" alt="{{person.name}}" class="person-img" />
+                <h4>{{ person.name }}</h4>
+                </div>
+            </ng-template>
+        </p-carousel>
+        <p class="list">Selecione la mejor opcion que corresponda
+            <p-listBox  [options]="items" [multiple]="true" [checkbox]="true"></p-listBox>    
+        </p>
+        <P>
+            Introdusca la fecha en que conocio tan hermosa pagina<br>
+            <p-datepicker  />
+        </P>
+    </div>
+</div>
