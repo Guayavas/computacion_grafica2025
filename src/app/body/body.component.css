@@ -1,0 +1,20 @@
+body{
+    background-color: brown;
+    height: 85vh;
+    width: 100%;
+
+    display: grid;
+    align-items: center;
+}
+
+.card{
+    margin-left: 20px;
+    width: 400px;
+    height: 100px;
+}
+
+
+.list{
+    width: 200px;
+    height: 300px;
+}
