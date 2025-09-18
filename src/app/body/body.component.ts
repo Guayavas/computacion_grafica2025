@@ -3,11 +3,11 @@ import { CardModule } from 'primeng/card';
 import { ListboxModule } from 'primeng/listbox';
 import { DatePickerModule } from 'primeng/datepicker';
 import { CarouselModule, Carousel } from 'primeng/carousel';
-import { image } from '@primeuix/themes/aura/chip';
+import { PanelModule } from 'primeng/panel';
 
 @Component({
   selector: 'app-body',
-  imports: [CardModule, ListboxModule, DatePickerModule, CardModule, CarouselModule],
+  imports: [PanelModule,CardModule, ListboxModule, DatePickerModule, CardModule, CarouselModule],
   templateUrl: './body.component.html',
   styleUrl: './body.component.css'
 })
