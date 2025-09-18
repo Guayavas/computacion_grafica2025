@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CardModule } from 'primeng/card';
 import { ListboxModule } from 'primeng/listbox';
-
+import { DatePickerModule } from 'primeng/datepicker';
 
 @Component({
   selector: 'app-body',
-  imports: [CardModule, ListboxModule],
+  imports: [CardModule, ListboxModule, DatePickerModule],
   templateUrl: './body.component.html',
   styleUrl: './body.component.css'
 })
